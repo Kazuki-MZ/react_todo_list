@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kazu1212-star/react_todo_list/static/css/main.073c9b0a.css",
-    "main.js": "/kazu1212-star/react_todo_list/static/js/main.412e4511.js",
-    "static/js/787.98f7da45.chunk.js": "/kazu1212-star/react_todo_list/static/js/787.98f7da45.chunk.js",
-    "index.html": "/kazu1212-star/react_todo_list/index.html",
-    "main.073c9b0a.css.map": "/kazu1212-star/react_todo_list/static/css/main.073c9b0a.css.map",
-    "main.412e4511.js.map": "/kazu1212-star/react_todo_list/static/js/main.412e4511.js.map",
-    "787.98f7da45.chunk.js.map": "/kazu1212-star/react_todo_list/static/js/787.98f7da45.chunk.js.map"
+    "main.css": "/react_todo_list/static/css/main.073c9b0a.css",
+    "main.js": "/react_todo_list/static/js/main.abcb2b54.js",
+    "static/js/787.98f7da45.chunk.js": "/react_todo_list/static/js/787.98f7da45.chunk.js",
+    "index.html": "/react_todo_list/index.html",
+    "main.073c9b0a.css.map": "/react_todo_list/static/css/main.073c9b0a.css.map",
+    "main.abcb2b54.js.map": "/react_todo_list/static/js/main.abcb2b54.js.map",
+    "787.98f7da45.chunk.js.map": "/react_todo_list/static/js/787.98f7da45.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.412e4511.js"
+    "static/js/main.abcb2b54.js"
   ]
 }
