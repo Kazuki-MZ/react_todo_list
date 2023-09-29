@@ -8,7 +8,12 @@ export const Todos = createContext();
 
 function App() {
   const style = {
-    textAlign: 'center'
+    container : {
+      textAlign: 'center'
+    },
+    title : {
+      fontSize : '6vw'
+    }
   };
 
   const [todos, setTodos] = useState(JSON.parse(localStorage.getItem('todos')) || []);
@@ -18,8 +23,8 @@ function App() {
   }, [todos])
 
   return (
-    <div style={style} >
-      <h1>Todo List</h1>
+    <div style={style.container} >
+      <h1 style={style.title}>Todo List</h1>
       <Todos.Provider value={{todos, setTodos}}>
         <InputTodo />
         <TodoCount />

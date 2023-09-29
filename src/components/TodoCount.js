@@ -7,7 +7,8 @@ export const TodoCount = () => {
     container: {
       display: 'flex',
       justifyContent: 'center',
-      marginBottom: '5px'
+      marginBottom: '5px',
+      fontSize: '2vw',
     },
     space: {
       margin: '0 10px'

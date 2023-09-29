@@ -23,13 +23,13 @@ export const InputTodo = () => {
       marginBottom: '5px'
     },
     input: {
-      fontSize: '20px',
-      width: '400px',
-      height: '20px',
+      fontSize: '2.5vw',
+      width: '50%',
+      height: '3vw',
     },
     addButton: {
       borderRadius: '7px',
-      fontSize: '15px',
+      fontSize: '2.5vw',
       marginLeft: '5px',
     }
   };

@@ -21,11 +21,12 @@ export const EditTodo = ({ todo, editTodoText, setEditTodoText, setEditForm }) =
     saveButton: {
       marginLeft: '5px',
       borderRadius: '5px',
-      fontSize: '12px'
+      fontSize: '2.5vw'
     },
     input : {
-      width: '580px',
-      fontSize: '21px'
+      fontSize: '2.5vw',
+      width: '50%',
+      height: '3vw',
     }
   };
 

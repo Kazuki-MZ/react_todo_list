@@ -33,21 +33,24 @@ export const Todo = ({ todo }) => {
       display: 'flex',
       padding: '3px',
     },
+    checkbox : {
+      fontSize: '2.5vw',
+    },
     name: {
       flexGrow: '1',
       textAlign: 'left',
-      fontSize: '22px',
+      fontSize: '3.5vw',
     },
     button : {
       margin: '0 12px',
       borderRadius: '7px',
-      fontSize: '12px',
+      fontSize: '2.5vw',
     }
   };
 
   return (
     <div style={style.container}>
-      <input type="checkbox" checked={todo.completed} onChange={() => {toggleTodo(todo.id)}} readOnly></input>
+      <input type="checkbox" style={style.checkbox} checked={todo.completed} onChange={() => {toggleTodo(todo.id)}} readOnly></input>
         {editForm ? (
           <>
             <EditTodo
