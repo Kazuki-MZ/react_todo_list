@@ -34,7 +34,7 @@ export const Todo = ({ todo }) => {
       padding: '3px',
     },
     checkbox : {
-      fontSize: '2.5vw',
+      width: '1.5vw'
     },
     name: {
       flexGrow: '1',
